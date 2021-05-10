@@ -9,7 +9,7 @@ type TypographyProps = {
 export const H2 = styled.h2`
     color: ${theme.colours.primaryOne};
     font-family: ${theme.fontFamily};
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: ${theme.fontWeights.normal};    
     margin-top: 0;
     letter-spacing: 1px;
@@ -18,8 +18,8 @@ export const H2 = styled.h2`
 export const P = styled.p`
     color: ${(props:TypographyProps) => props.fontColour};
     font-family: ${theme.fontFamily};
-    font-size: 0.9rem;
-    line-height: 1rem;
+    font-size: 0.85rem;
+    line-height: 1.25rem;
     margin-bottom: 9px;
     margin-top: 0;
     letter-spacing: 0.5px;
@@ -34,6 +34,7 @@ export const Caption = styled(P)`
 export const H3 = styled.h3`
     color: ${(props:TypographyProps) => props.fontColour};
     font-family: ${theme.fontFamily};
+    font-size: 1rem;
     font-weight: ${theme.fontWeights.normal};
     margin-top: 0;
     letter-spacing: 1px;

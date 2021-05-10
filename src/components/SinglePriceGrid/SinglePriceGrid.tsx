@@ -1,6 +1,6 @@
 import React from 'react';
 import { theme } from '../../theme';
-import {SinglePriceGridContainer, SinglePriceGridSection,SinglePriceGridSectionBodyText,SinglePriceGridPriceText } from './SinglePriceGrid.styles'
+import { SinglePriceGridContainer, SinglePriceGridSection,SinglePriceGridSectionBodyText,SinglePriceGridPriceText } from './SinglePriceGrid.styles'
 import { Button,H2, H3, P, Overline } from '../index';
 
 
@@ -20,6 +20,13 @@ export const SinglePriceGrid: React.FC = () =>
     </SinglePriceGridSection>
         <SinglePriceGridSection width='50%' backgroundColour={theme.colours.primaryTwo}>
             <H3 fontColour={theme.colours.neutralOne}>Why Us</H3>
-            <SinglePriceGridSectionBodyText fontColour={theme.colours.neutralTwo}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</SinglePriceGridSectionBodyText>
+            <SinglePriceGridSectionBodyText fontColour={theme.colours.neutralTwo}>
+                Lorem ipsum dolor sit amet<br/>
+                ed do eiusmod tempor <br/>
+                Ut enim ad minim veniam et do<br/>
+                aliquip ex commodo<br/>
+                nisi minim veniam<br/>
+                eiusmod tempor incididunt.
+            </SinglePriceGridSectionBodyText>
     </SinglePriceGridSection>
     </SinglePriceGridContainer>

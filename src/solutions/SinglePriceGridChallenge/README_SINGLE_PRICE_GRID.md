@@ -44,10 +44,11 @@ Users should be able to:
 ### What I learned
 
 The purpose of this project was to recap on some of the basics that I might not get to use regularly, e.g:
-- Responsive design and how to use media queries to build responsive layouts
+- Responsive design and how to use [media queries](https://www.w3schools.com/css/css_rwd_mediaqueries.asp) to build responsive layouts
 - Response font sizes - tried using bot em and rem and have decided that rem is more predictable
-- css transitions 
-- css filters
+- [Semantic HTML elements](https://www.w3schools.com/html/html5_semantic_elements.asp)
+- [css transitions](https://css-tricks.com/almanac/properties/t/transition/) 
+- [css filters](https://til.hashrocket.com/posts/4jhm8rrq7c-lighten-and-darken-with-css-brightness-filter)
 ```css
     transition: filter 0.5s ease-in-out;
     &:hover {

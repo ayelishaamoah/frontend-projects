@@ -1,10 +1,9 @@
-import React from 'react';
 import { SinglePriceGrid } from './SinglePriceGrid';
 
 export const Default = () => <SinglePriceGrid/>
 
 export default {
-  title: 'SinglePriceGrid',
+  title: 'Frontend Masters/Single Price Grid',
   component: SinglePriceGrid,
   args: {
     backgroundColor: '#f0f0f0'

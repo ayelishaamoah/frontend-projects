@@ -1,5 +1,5 @@
 import React from 'react';
-import { theme } from '../../theme';
+import { theme } from '../../../../theme';
 import { SinglePriceGridContainer, SinglePriceGridSection,SinglePriceGridSectionBodyText,SinglePriceGridPriceText } from './SinglePriceGrid.styles'
 import { Button,H2, H3, P, Overline } from '../index';
 

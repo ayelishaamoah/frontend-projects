@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { theme } from '../../theme';
+import { theme } from '../../../../theme';
 import { P } from '../Typography/Typography';
 
 export const SinglePriceGridContainer = styled.article`
